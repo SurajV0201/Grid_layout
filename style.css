@@ -1,60 +1,87 @@
-body{
+*{
     margin:0;
     padding:0;
-    box-shadow: border-box;
-    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg');
 }
-.main{
-    height: 100vh;
+header{
+    height:100vh;
     width:100%;
-    background: rgba(0,0,0,0.6);
+    background-image: url('https://e0.pxfuel.com/wallpapers/850/763/desktop-wallpaper-construction-site-construction-work.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav{
-    height:20vh;
+    background: linear-gradient(180deg,rgb(6, 6, 6) 70%, rgb(135, 133, 133));
+    height:90px;
     width:100%;
-}
-#logo{
-    float: left;
-    height:20vh;
-    width:40%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-#logo img{
-    height:50px;
-    width:200px;
+.links{
+    height:30px;
+    margin-left: 5%;
 }
-#login{
-    height:20vh;
-    width:50%;
-    float:right;
-    margin-right: 20px;
-} 
-#login a{
-    font-size: 15px;
-    font-weight: bold;
-    font-family: sans-serif;
-    float:right;
-    text-decoration: none;
+a{
+    background-size: cover;
+    color:black;
+    text-decoration:none;
     color:white;
-    background-color: red;
-    padding:10px 15px;
-    margin:30px 10px;
-    border-radius: 10px;
-} 
-#login a:hover{
+    padding:5px 3.5vw;
+    font-size: 18px;
+}
+#home{
+    color:black;
     background-color: white;
+    padding:5px 4vw;
+}
+#home:hover{
+    background-color: red;
+    color:white;
+}
+a:hover{
     color:green;
+    background-color: white;
 }
-.main .caption{
-    color: white;
-    display: block;
-    margin:120px auto;
-    width: 70%;
-    font-size: 24px;
-    text-align: center;
+main{
+    height:80vh;
+    width:100%;
+    
 }
-.caption h1{
-    margin:0;
+.construction{
+    height:80vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap:wrap; */
+    align-items: center;
+}
+.img{
+    height:70vh;
+    width:30%;
+}
+.img img{
+    height:70vh;
+    width:100%;
+}
+.footer{
+    height:80vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    color:white;
+    align-self: flex-end;
+}
+.footer .info{
+    height:60vh;
+    width:50%;
+    display: flex;
+    
+}
+#footImg img{
+    height:60vh;
+    width:100%;
 }
